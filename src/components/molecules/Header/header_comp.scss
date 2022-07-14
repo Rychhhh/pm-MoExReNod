@@ -1,0 +1,39 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: aqua;
+    height: 100px;
+    
+    .logo-app {
+        margin: 10px;
+
+        .image {
+            width: 150px;
+        }
+
+    }
+
+
+    .action {
+        display: flex; 
+        .account {
+            padding-top: 3px;
+            font-weight: bold;
+            padding-right: 15px;
+        }
+        .logout {    
+            margin-right: 5px;
+            .btn-logout {
+                width: 100px;
+                background-color: red;
+                color: white; 
+                border-radius: 25px; 
+                outline: none;
+                font-weight: bold;
+                padding: 4px 2px;
+    
+            }
+        }
+    }
+}

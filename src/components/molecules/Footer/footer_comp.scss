@@ -1,0 +1,31 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    background-color: aqua;
+    height: 100px;
+
+    .top {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .logo-app {
+            margin: 3px;
+        }
+
+        .action {
+            display: flex;
+            .logo {
+                width: 10px;
+                height: 10px;
+            }
+        }
+    }
+    
+    .copyright {
+        text-align: center;
+        font-weight: bold;
+    }
+
+
+}

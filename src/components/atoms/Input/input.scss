@@ -1,0 +1,21 @@
+.input-wrapper {
+    display: flex;
+    flex-direction: column;
+
+    .label {
+        font-size: 15px;
+        font-weight: bold;
+        margin: 10px 0px 10px 0px;
+    }
+
+    .input {
+        outline: none;
+        margin: 0px auto 0 auto;
+        text-align:center;
+        padding: 6px;
+        border-radius: 20px;
+        border: 1px solid rgb(0, 0, 0);
+        width: 85%;
+        box-shadow: 10px;
+    }
+}
